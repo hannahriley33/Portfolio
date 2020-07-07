@@ -20,6 +20,6 @@ export const projects = [
     projectUrl: 'https://secretmenu.netlify.app/',
     projectGit: 'https://github.com/Secret-Menu',
     projectStack: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
-    summary: 'A complete restaurant ordering and voting site, using both Google Maps and Stripe to '
-  },
+    summary: 'A complete restaurant ordering and voting site, using both Google Maps and Stripe to ...'
+  }
 ];
