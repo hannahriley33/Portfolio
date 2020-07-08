@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from '../Header/Header';
 import Resume from '../Resume/Resume.jsx';
+import ProjectContainer from './Projects/ProjectContainer';
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
         <Header />
         <Switch>
           <Route path="/resume" component={Resume} />
+          <Route path="/projects" component={ProjectContainer} />
           {/* <img src={} /> */}
         </Switch>
       </Router>

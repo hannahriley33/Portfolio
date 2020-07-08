@@ -1,14 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import ProjectItem from './ProjectItem';
+import projects from './projectData/projects';
 
-const Projects = () => {
+
+const ProjectsList = () => {
+
+  const projectsToList =  projects.map(project => (
+    <li key={`${project.projectTitle}`}>
+      <ProjectItem {...project} />
+    </li>
+  ));
 
   return (
-    <section>
-      <h1>Header!!!</h1>
-      <Link to="/resume"><p>Resume</p></Link>
-    </section>
+    <ul>
+      {projectsToList}
+    </ul>
+
   );
 };
 
-export default Projects;
+ProjectsList.propTypes = {
+  projects: PropTypes.arrayOf(PropTypes.shape({
+    summary: PropTypes.string.isRequired,
+    projectStack: PropTypes.array.isRequired,
+    projectGit: PropTypes.string.isRequired,
+    projectUrl: PropTypes.string.isRequired,
+    projectImage: PropTypes.string.isRequired,
+    projectTitle:PropTypes.string.isRequired
+  }))
+};
+
+export default ProjectsList;
