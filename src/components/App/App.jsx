@@ -15,6 +15,7 @@ export default function App() {
         <Header />
         <Switch>
           <Route path="/resume" component={Resume} />
+          {/* <img src={} /> */}
         </Switch>
       </Router>
     </>
