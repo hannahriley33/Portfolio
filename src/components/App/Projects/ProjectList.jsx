@@ -21,7 +21,7 @@ const ProjectsList = () => {
 
 ProjectsList.propTypes = {
   projects: PropTypes.arrayOf(PropTypes.shape({
-    summary: PropTypes.string.isRequired,
+    projectSummary: PropTypes.string.isRequired,
     projectStack: PropTypes.array.isRequired,
     projectGit: PropTypes.string.isRequired,
     projectUrl: PropTypes.string.isRequired,

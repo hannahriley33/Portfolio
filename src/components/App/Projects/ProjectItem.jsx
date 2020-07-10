@@ -4,11 +4,21 @@ import PropTypes from 'prop-types';
 const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, projectStack, projectSummary }) => (
   <p>
     {projectTitle}
+    {projectImage}
+    {projectUrl}
+    {projectGit}
+    {projectStack}
+    {projectSummary}
   </p>
 );
 
 ProjectItem.propTypes = {
-  project: PropTypes.array.isRequired
+  projectSummary: PropTypes.string.isRequired,
+  projectStack: PropTypes.array.isRequired,
+  projectGit: PropTypes.string.isRequired,
+  projectUrl: PropTypes.string.isRequired,
+  projectImage: PropTypes.string.isRequired,
+  projectTitle:PropTypes.string.isRequired
 };
 
 export default ProjectItem;
