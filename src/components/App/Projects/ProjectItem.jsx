@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const ProjectItem = ({ project }) => (
   <p>
-    <span>{project.projectTitle}</span>
+    {project.projectTitle}
   </p>
 );
 
