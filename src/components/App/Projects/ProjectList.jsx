@@ -24,7 +24,7 @@ ProjectsList.propTypes = {
     projectSummary: PropTypes.string.isRequired,
     projectStack: PropTypes.array.isRequired,
     projectGit: PropTypes.string.isRequired,
-    projectUrl: PropTypes.string.isRequired,
+    projectUrl: PropTypes.string,
     projectImage: PropTypes.string.isRequired,
     projectTitle:PropTypes.string.isRequired
   }))
