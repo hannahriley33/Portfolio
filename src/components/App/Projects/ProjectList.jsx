@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectItem from './ProjectItem';
-import projects from './projectData/projects';
+import { projects } from './projectData/projects';
 
 const ProjectsList = () => {
 
