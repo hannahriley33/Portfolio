@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ProjectItem = ({ project }) => (
+const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, projectStack, projectSummary }) => (
   <p>
-    {project.projectTitle}
+    {projectTitle}
   </p>
 );
 
