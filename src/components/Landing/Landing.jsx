@@ -1,6 +1,6 @@
 import React from 'react';
 import landingStyles from './landingStyles.css';
-import landingBeanie from '../../assets/landingBeanie.jpg';
+import landingBeanie from '../../assets/landingBeanie.jpeg';
 
 const Landing = () => {
   

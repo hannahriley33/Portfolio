@@ -7,6 +7,7 @@ import {
 import Header from '../Header/Header';
 import Resume from '../Resume/Resume.jsx';
 import ProjectContainer from '../Projects/ProjectContainer';
+import Landing from '../Landing/Landing';
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/" component={Landing} />
           <Route path="/resume" component={Resume} />
           <Route path="/projects" component={ProjectContainer} />
           {/* <img src={} /> */}
