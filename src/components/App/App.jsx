@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from '../Header/Header';
 import Resume from '../Resume/Resume.jsx';
-import ProjectContainer from './Projects/ProjectContainer';
+import ProjectContainer from '../Projects/ProjectContainer';
 
 export default function App() {
 
