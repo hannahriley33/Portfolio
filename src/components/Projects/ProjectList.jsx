@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectItem from './ProjectItem';
 import { projects } from './projectData/projects';
+import styles from './projectStyles.css';
 
 const ProjectsList = () => {
 
@@ -12,8 +13,9 @@ const ProjectsList = () => {
   ));
 
   return (
-    <div>
-      {projectsToList}
+    <div className={styles.parent}>
+      <h1 className={styles.title}>{'Projects'}</h1>
+      <div className={styles.projects}>{projectsToList}</div>
     </div>
 
   );
