@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import styles from './projectItem.css';
+import { Link } from 'react-router-dom';
 
 const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, projectStack, projectSummary }) => (
   <div className={styles.project}>
@@ -10,8 +10,8 @@ const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, proje
     <p className={styles.projectStack}>{projectStack}</p>
     <p className={styles.projectSummary}>{projectSummary}</p>
     <div className={styles.projectLinks}>
+      <a src={projectUrl} target="blank"> <p>Live Site</p> </a>
       <Link to={projectGit}> <p>{projectTitle} Github</p> </Link>
-      <Link to={projectUrl}> <p>Live site</p> </Link>
     </div>
   </div>
 );
