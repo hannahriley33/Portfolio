@@ -7,12 +7,12 @@ const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, proje
   <div className={styles.project}>
     <p className={styles.projectTitle}>{projectTitle}</p>
     <img src={projectImage} className={styles.projectImage}/>
+    <p className={styles.projectStack}>{projectStack}</p>
+    <p className={styles.projectSummary}>{projectSummary}</p>
     <div className={styles.projectLinks}>
       <Link to={projectGit}> <p>{projectTitle} Github</p> </Link>
       <Link to={projectUrl}> <p>Live site</p> </Link>
     </div>
-    {projectStack}
-    {projectSummary}
   </div>
 );
 
