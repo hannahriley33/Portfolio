@@ -7,7 +7,7 @@
   height: 30%;
   font-family: 'Roboto Slab', serif;
   justify-content: space-evenly;
-  
+  border: 2px solid #DDBEA9;
 }
 
 .home {
