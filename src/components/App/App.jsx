@@ -8,9 +8,12 @@ import Header from '../Header/Header';
 import Resume from '../Resume/Resume.jsx';
 import ProjectContainer from '../Projects/ProjectContainer';
 import Landing from '../Landing/Landing';
+import styles from './appStyles.css';
+
 
 export default function App() {
 
+  
   return (
     <>
       <Router>

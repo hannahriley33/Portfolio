@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.project {
+  display: flex;
+  border: 2px solid black;  
+  padding: 20px;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B7B7A4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.projectTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+}
+.projectImage {
+  height: 20%;
+  width: 15%;
+  border: solid 2px black;
+}
+.projectLinks {
+  display: inline-block;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #EDDCD2;
+}
+
+a:active {
+  color: #EDDCD2;
+}
