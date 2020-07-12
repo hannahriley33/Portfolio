@@ -16,10 +16,9 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" component={Landing} />
           <Route path="/resume" component={Resume} />
           <Route path="/projects" component={ProjectContainer} />
-          {/* <img src={} /> */}
+          <Route path="/" component={Landing} />
         </Switch>
       </Router>
     </>

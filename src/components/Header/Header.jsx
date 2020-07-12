@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './headerStyles.css';
 
 const Header = () => {
 
   return (
-    <section>
-      <Link to="/projects"> <p>Projects</p> </Link>
-      <Link to="/resume"><p>Resume</p></Link>
+    <section className={styles.parent}>
+      <div className={styles.git}>
+        <Link to="/projects"> <p className={styles.gitLink}>Projects</p> </Link>
+      </div>
+      <div className={styles.site}>
+        <Link to="/resume"><p className={styles.siteLink}>Resume</p></Link>
+      </div>
     </section>
   );
 };

@@ -6,15 +6,15 @@ import { projects } from './projectData/projects';
 const ProjectsList = () => {
 
   const projectsToList =  projects.map(project => (
-    <li key={`${project.projectTitle}`}>
+    <span key={`${project.projectTitle}`}>
       <ProjectItem {...project} />
-    </li>
+    </span>
   ));
 
   return (
-    <ul>
+    <div>
       {projectsToList}
-    </ul>
+    </div>
 
   );
 };
