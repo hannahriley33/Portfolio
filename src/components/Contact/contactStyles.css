@@ -1,0 +1,17 @@
+.mainDiv {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.email {
+  color: #CB997E;
+}
+
+.funPic {
+  width: 35%;
+  border: solid .4em #FFF1E6;
+  height: auto;
+}

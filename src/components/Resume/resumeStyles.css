@@ -1,0 +1,12 @@
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pic {
+  margin-top: 6%;
+  height: 60%;
+  width: 60%;
+}
