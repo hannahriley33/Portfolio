@@ -4,9 +4,20 @@
 .parent {
   background-color: #A5A58D;
   display: flex;
-  height: 30%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Roboto Slab', serif;
   justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #DDBEA9;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 11%;
+  font-size: 1.1em;
+  margin: 0 auto;
+}
+.name {
+  font-size: larger;
+  color: #F0EFEB;
 }
 
 .home {
@@ -22,11 +33,12 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: #F0EFEB;
 }
 
 a:hover {
   color: rgb(7, 58, 7);
+  text-decoration: underline;
 }
 
 a:active {

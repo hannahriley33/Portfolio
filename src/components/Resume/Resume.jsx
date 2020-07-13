@@ -1,15 +1,14 @@
 import React from 'react';
-import resume from '../../assets/resume.png';
+import resume from '../../assets/resume.jpg';
+import resumeStyles from './resumeStyles.css';
 
 const Resume = () => {
   
   return (
-    <div>
-      <p>RESUME</p>
-      <img src={resume}></img>
+    <div className={resumeStyles.resume}>
+      <img src={resume} className={resumeStyles.pic}></img>
     </div>
   );
 };
 
 export default Resume;
-

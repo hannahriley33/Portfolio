@@ -7,7 +7,7 @@ const Header = () => {
   
   return (
     <div className={styles.parent}>
-    
+      <p className={styles.name}>Hannah Riley</p>
       <div className={styles.home}>
         <Link to="/"><p className={styles.link}>Home</p></Link>
       </div>

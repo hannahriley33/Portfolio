@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import styles from './projectItem.css';
 
 const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, projectStack, projectSummary }) => (
-  <div>
-    <p>{projectTitle}</p>
-    <img src={projectImage} />
-    <div>
-      <Link to={projectGit}> <p>{projectTitle} Github</p> </Link>
-      <Link to={projectUrl}> <p>Live site</p> </Link>
+  <div className={styles.project}>
+    <p className={styles.projectTitle}>{projectTitle}</p>
+    <img src={projectImage} className={styles.projectImage}/>
+    <p className={styles.projectStack}>{projectStack}</p>
+    <p className={styles.projectSummary}>{projectSummary}</p>
+    <div className={styles.projectLinks}>
+      <a href={projectUrl} target="blank"> <p>Live Site</p> </a>
+      <a href={projectGit} target="blank"> <p>Github</p> </a> 
     </div>
-    {projectStack}
-    {projectSummary}
   </div>
 );
 
