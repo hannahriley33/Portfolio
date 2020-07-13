@@ -6,7 +6,7 @@
   display: flex;
   border: 2px solid black;  
   width: 70%;
-  margin: 5%;
+  margin: 5% auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
 .projectImage {
   height: 25%;
   width: 20%;
-  border: solid 2px black;
+  border: solid 2px #FFF1E6;
   margin-bottom: 10px;
 }
 .projectLinks {
