@@ -23,6 +23,9 @@ const Header = () => {
       <div className={styles.linkedinLink}>
         <a href="https://www.linkedin.com/in/hannah-m-riley/" target="blank"><p className={styles.link}>Linkedin</p></a>
       </div>
+      <div className={styles.contact}>
+        <Link to="/Contact"> <p className={styles.link}>Contact</p> </Link>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import contactStyles from './contactStyles.css';
-import hp from '../../assets/hp.jpeg';
+import hp from '../../../public/hp.jpeg';
 
 const Contact = () => {
   
