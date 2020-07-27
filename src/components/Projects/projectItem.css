@@ -4,19 +4,19 @@
 
 .project {
   display: flex;
-  border: 2px solid black;  
+  border: 1.5px solid #463f3a;  
   width: 70%;
   margin: 5% auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #B7B7A4;
+  background-color: #9f979356;
 }
 .projectTitle {
   font-size: 1.5em;
   font-weight: bold;
-  color: black;
+  color: #d28a74;
   
 }
 .projectImage {
@@ -47,27 +47,4 @@
   font-weight: lighter;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
 
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: #EDDCD2;
-  -webkit-text-decoration-color: #EDDCD2;
-  text-decoration-color: #EDDCD2;
-
-  
-}
-
-a:active {
-  color: #EDDCD2;
-}

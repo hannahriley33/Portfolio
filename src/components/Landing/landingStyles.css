@@ -6,28 +6,34 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 5%;
+  align-items: start;
+  padding-top: 5%;
 }
 
 .mainPic {
-  height: 30%;
-  width: 30%;
-  margin: 20px 20px 0px 20px;
-  border: solid .4em #FFF1E6;
+  height: 15%;
+  width: 15%;
+  margin: 0 1% 5% 5%;
+  border: solid .2em #bcb8b1;
 }
 
 .welcomeText {
+  display: flex;
+  flex-direction: column;
   width: 40%;
-  margin: 20px 20px 0px 20px;
+  margin: 0 20px 0px 20px;
   
+
 }
 
 .title {
-  color: #b68b73;
+  color: #d28a74;
 }
 
 .mainParagraph {
   font-weight: lighter;
   text-align: left;
   line-height: 1.6;
+  margin: 0 auto;
 }
