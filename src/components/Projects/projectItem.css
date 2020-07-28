@@ -2,6 +2,7 @@
 .project {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   grid-column-gap: 2%;
   flex-direction: row;
   justify-content: space-between;
@@ -14,18 +15,19 @@
 
 .titleImage {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  
+  margin-left: 10%;
+  width: 90%;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   justify-content: center;
-  margin: 0 auto;
   align-items: center;
-  width: 60%;
+  width: 90%;
 }
 
 .projectTitle {
@@ -33,11 +35,10 @@
   font-size: 2em;
   font-weight: bold;
   color: #d28a74;
-  
 }
 
 .projectImage {
-  
+  height: 30%;
   width: 60%;
   border: solid 2px #FFF1E6;
   margin-bottom: 10px;

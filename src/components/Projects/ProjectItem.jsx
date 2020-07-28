@@ -7,11 +7,11 @@ const ProjectItem = ({ projectTitle, projectImage, projectUrl, projectGit, proje
 
     <div className={styles.titleImage}>
       <p className={styles.projectTitle}>{projectTitle}</p>
+      <p className={styles.projectStack}>{projectStack}</p>
       <img src={projectImage} className={styles.projectImage}/>
     </div>
 
     <div className={styles.text}>
-      <p className={styles.projectStack}>{projectStack}</p>
       <p className={styles.projectSummary}>{projectSummary}</p>
     
       <div className={styles.projectLinks}>
