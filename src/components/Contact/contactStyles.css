@@ -7,11 +7,11 @@
   flex-direction: column;
 }
 .email {
-  color: #CB997E;
+  color: #d28a74;
 }
 
 .funPic {
   width: 35%;
-  border: solid .4em #FFF1E6;
+  border: solid .4em #bcb8b1;
   height: auto;
 }

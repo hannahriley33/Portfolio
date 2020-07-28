@@ -9,7 +9,7 @@ export const projects = [
     projectUrl: 'https://secretmenu.netlify.app/',
     projectGit: 'https://github.com/Secret-Menu',
     projectStack: ['React | ', 'Redux |  ', 'Node.js | ', 'Express | ', 'MongoDB | ', 'Stripe'],
-    projectSummary: 'A complete restaurant ordering and voting site, using both Google Maps and Stripe to ...'
+    projectSummary: 'Due to COVID-19, many restaurant\'s in Portland have shifted their business models towards a meal-kit approach. Secret Menu is a complete restaurant ordering and dish voting site, using both Google Maps and Stripe to enhance user experience. I primarily worked on the back end developing models and routes. I also developed the front end functionality for the business-owner side of the site.'
   },
   {    
     projectTitle: 'Social Distance-Ping',
