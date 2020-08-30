@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +8,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
   <title>Hannah Riley</title>
 </head>
-
 <body>
   <div id="root"></div>
-  <black-lives></black-lives>
-  <script src="https://unpkg.com/i-stand/black-lives.js" type="module"></script>
+  <black-lives-again></black-lives-again>
+  <script src="https://unpkg.com/i-stand/black-lives.js"></script>
+    <script>
+    const styles = `
+<style>
+.names {
+  font-size: 15px;
+}
+</style>`;
+    class BlackLivesAgain extends BlackLives {
+      constructor() {
+        super();
+        this.shadowRoot.innerHTML = `${this.shadowRoot.innerHTML} ${styles}`
+      }
+    }
+    customElements.define("black-lives-again", BlackLivesAgain);
+  </script>
 </body>
-
 </html>

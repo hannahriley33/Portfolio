@@ -3,14 +3,22 @@ import PropTypes from 'prop-types';
 import ProjectItem from './ProjectItem';
 import { projects } from './projectData/projects';
 import projectStyles from './projectStyles.css';
+import Masonry from 'react-masonry-css';
 
 const ProjectsList = () => {
 
   const projectsToList =  projects.map(project => (
     <span key={`${project.projectTitle}`}>
-      <ProjectItem {...project} />
+      
+      <Masonry
+        breakpointCols={3}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column">
+        <ProjectItem {...project} />
+      </Masonry>
     </span>
   ));
+
 
   return (
     <div className={projectStyles.parent}>

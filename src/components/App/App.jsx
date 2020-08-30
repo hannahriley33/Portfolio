@@ -9,6 +9,7 @@ import Resume from '../Resume/Resume.jsx';
 import ProjectList from '../Projects/ProjectList';
 import Landing from '../Landing/Landing';
 import Contact from '../Contact/Contact';
+import Sidebar from '../Sidebar/Sidebar.js';
 import styles from './appStyles.css';
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/sidebar/1" component={Sidebar} />
           <Route path="/resume" component={Resume} />
           <Route path="/projects" component={ProjectList} />
           <Route path="/contact" component={Contact} />
